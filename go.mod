@@ -2,7 +2,7 @@ module github.com/elgopher/pi-template
 
 go 1.18
 
-require github.com/elgopher/pi v0.7.1
+require github.com/elgopher/pi v0.8.0
 
 require (
 	github.com/go-gl/glfw/v3.3/glfw v0.0.0-20220320163800-277f93cfa958 // indirect
