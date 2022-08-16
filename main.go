@@ -5,6 +5,7 @@ import (
 	"fmt"
 
 	"github.com/elgopher/pi"
+
 	"github.com/elgopher/pi-template/game"
 )
 
