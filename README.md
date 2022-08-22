@@ -12,5 +12,14 @@ This is a template for writing new games powered by [Pi](https://github.com/elgo
 
 ## How to use it?
 
-* Go 1.18+ is required
+* [Go 1.18+](https://go.dev/dl/) is required
+* Install [Ebitengine dependencies](https://ebiten.org/documents/install.html)
 * ```go run main.go```
+
+## Howtos
+
+### How to rename the module?
+
+* this template has a module named `github.com/elgopher/pi-template`
+* edit the go.mod and replace the module name with your own, e.g. `module github.com/you/name`
+* do the same with import in main.go
