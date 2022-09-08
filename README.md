@@ -4,7 +4,7 @@ This is a template for writing new games powered by [Pi](https://github.com/elgo
 
 ## What's in the box? <img src="sprite-sheet.png" align="right" />
 
-* sprite-sheet file with 16 colors palette inspired by [Pico-8](https://www.lexaloffle.com/pico-8.php).
+* sprite-sheet file with 16 colors palette from [Pico-8](https://www.lexaloffle.com/pico-8.php).
 * the sprite-sheet file has one sprite with number 0
 * project is a Go module importing all the necessary dependencies
 * main.go file contains code running the game
