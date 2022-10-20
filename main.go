@@ -9,7 +9,7 @@ import (
 	"github.com/elgopher/pi-template/game"
 )
 
-//go:embed sprite-sheet.png
+//go:embed sprite-sheet.png custom-font.png
 var resources embed.FS
 
 func main() {
