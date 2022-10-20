@@ -2,13 +2,13 @@ github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802/go.mod h1:IVnqGOEym
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/ebitengine/purego v0.0.0-20220905075623-aeed57cda744 h1:A8UnJ/5OKzki4HBDwoRQz7I6sxKsokpMXcGh+fUxpfc=
 github.com/ebitengine/purego v0.0.0-20220905075623-aeed57cda744/go.mod h1:Eh8I3yvknDYZeCuXH9kRNaPuHEwvXDCk378o9xszmHg=
-github.com/elgopher/pi v0.14.0 h1:lcTzFWBqvoOwqRL9wWmQ2VlLQeY0mSuQqRJayrgQvvo=
-github.com/elgopher/pi v0.14.0/go.mod h1:gVr1hPulYtNfHhUte38TMMz7IXtIdzLAByLi9nwFKu0=
+github.com/elgopher/pi v0.15.0 h1:klmx6G0Gtt7aj8TecfHK2ePsMQbwHRZ1w3tUI6OQvP4=
+github.com/elgopher/pi v0.15.0/go.mod h1:5lWqyeYx2ASVGmxvYxaKtFcmvmCdTy3mYFhyykqJStE=
 github.com/go-gl/glfw/v3.3/glfw v0.0.0-20220806181222-55e207c401ad h1:kX51IjbsJPCvzV9jUoVQG9GEUqIq5hjfYzXTqQ52Rh8=
 github.com/go-gl/glfw/v3.3/glfw v0.0.0-20220806181222-55e207c401ad/go.mod h1:tQ2UAYgL5IevRw8kRxooKSPJfGvJ9fJQFa0TUsXzTg8=
 github.com/hajimehoshi/bitmapfont/v2 v2.2.1/go.mod h1:wjrYAy8vKgj9JsFgnYAOK346/uvE22TlmqouzdnYIs0=
-github.com/hajimehoshi/ebiten/v2 v2.4.7 h1:XuvB7R0Rbw/O7g6vNU8gqr5b9e7MNhhAONMSsyreLDI=
-github.com/hajimehoshi/ebiten/v2 v2.4.7/go.mod h1:Ofk1EfQZZ8tL0TlEPF5wPrnN+8Oa/ywuQOYh+uYsqLQ=
+github.com/hajimehoshi/ebiten/v2 v2.4.8 h1:rrSfpkCdx5sHVL72c8CF6TRz2BfttbhBT3yMCqa1IIo=
+github.com/hajimehoshi/ebiten/v2 v2.4.8/go.mod h1:Ofk1EfQZZ8tL0TlEPF5wPrnN+8Oa/ywuQOYh+uYsqLQ=
 github.com/hajimehoshi/file2byteslice v0.0.0-20210813153925-5340248a8f41 h1:s01qIIRG7vN/5ndLwkDktjx44ulFk6apvAjVBYR50Yo=
 github.com/hajimehoshi/file2byteslice v0.0.0-20210813153925-5340248a8f41/go.mod h1:CqqAHp7Dk/AqQiwuhV1yT2334qbA/tFWQW0MD2dGqUE=
 github.com/hajimehoshi/go-mp3 v0.3.3/go.mod h1:qMJj/CSDxx6CGHiZeCgbiq2DSUkbK0UbtXShQcnfyMM=
