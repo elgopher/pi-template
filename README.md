@@ -15,7 +15,7 @@ This is a template for writing new games powered by [Pi](https://github.com/elgo
 * [Go 1.18+](https://go.dev/dl/) is required
 * Use any Go editor such as [Visual Studio Code](https://code.visualstudio.com/) or [GoLand](https://www.jetbrains.com/go/)
 * If not on Windows, please install additional dependencies for [Linux](https://github.com/elgopher/pi/blob/master/docs/install-linux.md) or [macOS](https://github.com/elgopher/pi/blob/master/docs/install-macos.md)
-* Run the game with ```go run main.go``` (or run main.go from your editor)
+* Run the game with ```go run .``` (or run directly from your editor)
 
 ## Howtos
 
