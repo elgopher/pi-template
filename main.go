@@ -2,10 +2,8 @@ package main
 
 import (
 	"embed"
-	"fmt"
 
 	"github.com/elgopher/pi"
-	"github.com/elgopher/pi/ebitengine"
 
 	"github.com/elgopher/pi-template/game"
 )
@@ -18,7 +16,5 @@ func main() {
 	pi.Update = game.Update
 	pi.Draw = game.Draw
 
-	if err := pi.Run(ebitengine.Backend); err != nil {
-		fmt.Printf("I'm sorry. Pi game cannot be run :( The error is: %s\n", err.Error())
-	}
+	run()
 }
