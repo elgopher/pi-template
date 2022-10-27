@@ -8,5 +8,5 @@ import (
 )
 
 func run() {
-	devtools.MustRun(ebitengine.Backend)
+	devtools.MustRun(ebitengine.Run)
 }

@@ -12,7 +12,7 @@ import (
 var resources embed.FS
 
 func main() {
-	pi.Resources = resources
+	pi.Load(resources)
 	pi.Update = game.Update
 	pi.Draw = game.Draw
 

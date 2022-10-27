@@ -2,8 +2,8 @@ github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802/go.mod h1:IVnqGOEym
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/ebitengine/purego v0.0.0-20220905075623-aeed57cda744 h1:A8UnJ/5OKzki4HBDwoRQz7I6sxKsokpMXcGh+fUxpfc=
 github.com/ebitengine/purego v0.0.0-20220905075623-aeed57cda744/go.mod h1:Eh8I3yvknDYZeCuXH9kRNaPuHEwvXDCk378o9xszmHg=
-github.com/elgopher/pi v0.18.1 h1:Zu6WUu8Tc1WSHhfuPMsZB4+3Ix60ICr2Pf/UTM8MWnk=
-github.com/elgopher/pi v0.18.1/go.mod h1:5lWqyeYx2ASVGmxvYxaKtFcmvmCdTy3mYFhyykqJStE=
+github.com/elgopher/pi v0.19.0 h1:ig9yas/DZJrPSdhivtbuluAq8fKzlY7Udu+jILVDieg=
+github.com/elgopher/pi v0.19.0/go.mod h1:5lWqyeYx2ASVGmxvYxaKtFcmvmCdTy3mYFhyykqJStE=
 github.com/go-gl/glfw/v3.3/glfw v0.0.0-20220806181222-55e207c401ad h1:kX51IjbsJPCvzV9jUoVQG9GEUqIq5hjfYzXTqQ52Rh8=
 github.com/go-gl/glfw/v3.3/glfw v0.0.0-20220806181222-55e207c401ad/go.mod h1:tQ2UAYgL5IevRw8kRxooKSPJfGvJ9fJQFa0TUsXzTg8=
 github.com/hajimehoshi/bitmapfont/v2 v2.2.1/go.mod h1:wjrYAy8vKgj9JsFgnYAOK346/uvE22TlmqouzdnYIs0=
