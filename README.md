@@ -9,7 +9,7 @@ This is a template for writing new games powered by [Pi](https://github.com/elgo
 * project is a Go module importing all the necessary dependencies
 * main.go file contains code running the game
 * game code is inside game package
-* two variants of code: for development (with devtools) and production (no devtools)
+* two variants of code: for development (with devtools) and release (no devtools)
 
 ## How to use it?
 
@@ -26,8 +26,8 @@ This is a template for writing new games powered by [Pi](https://github.com/elgo
 * edit the go.mod and replace the module name with your own, e.g. `module github.com/you/name`
 * do the same with import in main.go
 
-### How to create production build (with no devtools)?
+### How to create release build (with no devtools)?
 
 ```sh
-go build -tags prod .
+go build -tags release .
 ```
