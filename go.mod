@@ -2,7 +2,7 @@ module github.com/elgopher/pi-template
 
 go 1.18
 
-require github.com/elgopher/pi v0.19.0
+require github.com/elgopher/pi v0.19.1
 
 require (
 	github.com/ebitengine/purego v0.0.0-20220905075623-aeed57cda744 // indirect
