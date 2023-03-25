@@ -26,8 +26,18 @@ This is a template for writing new games powered by [Pi](https://github.com/elgo
 * edit the go.mod and replace the module name with your own, e.g. `module github.com/you/name`
 * do the same with import in main.go
 
+### How to edit PNG files?
+
+* Use a pixel-art editor which supports indexed color mode, such as [Aseprite](https://www.aseprite.org/) or [LibreSprite](https://libresprite.github.io/).
+* Palette for the game is stored inside sprite-sheet.png. 
+
 ### How to create release build (with no devtools)?
 
 ```sh
 go build -tags release .
 ```
+
+### Attributions
+
+* custom-font.png contains original [Pico-8 fonts](https://www.lexaloffle.com/pico-8.php?page=faq) created by Zep - [CC-0 license](https://creativecommons.org/publicdomain/zero/1.0/)
+* palette used in sprite-sheet.png is the original [Pico-8 palette](https://www.lexaloffle.com/pico-8.php?page=faq) created by Zep - [CC-0 license](https://creativecommons.org/publicdomain/zero/1.0/)
