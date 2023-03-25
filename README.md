@@ -39,5 +39,5 @@ go build -tags release .
 
 ### Attributions
 
-* custom-font.png contains original [Pico-8 fonts](https://www.lexaloffle.com/pico-8.php?page=faq) created by Zep - [CC-0 license](https://creativecommons.org/publicdomain/zero/1.0/)
+* custom-font.png contains original [Pico-8 font](https://www.lexaloffle.com/pico-8.php?page=faq) created by Zep - [CC-0 license](https://creativecommons.org/publicdomain/zero/1.0/)
 * palette used in sprite-sheet.png is the original [Pico-8 palette](https://www.lexaloffle.com/pico-8.php?page=faq) created by Zep - [CC-0 license](https://creativecommons.org/publicdomain/zero/1.0/)
