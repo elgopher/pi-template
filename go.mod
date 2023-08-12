@@ -1,6 +1,6 @@
 module github.com/elgopher/pi-template
 
-go 1.18
+go 1.20
 
 require github.com/elgopher/pi v0.22.0
 
