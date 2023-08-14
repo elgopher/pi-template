@@ -4,8 +4,8 @@ github.com/ebitengine/purego v0.4.0 h1:RQVuMIxQPQ5iCGEJvjQ17YOK+1tMKjVau2FUMvXH4
 github.com/ebitengine/purego v0.4.0/go.mod h1:ah1In8AOtksoNK6yk5z1HTJeUkC1Ez4Wk2idgGslMwQ=
 github.com/elgopher/liner v0.0.0-20230812143208-5760098a2c15 h1:u7QQZo3PMYrPKnPqGyA1eTxUHNdCIqW4biw8TNYUry0=
 github.com/elgopher/liner v0.0.0-20230812143208-5760098a2c15/go.mod h1:/hQBcricMwKU2ip2HsFnf1TpjDXioOLCsPE0SxcRd8w=
-github.com/elgopher/pi v0.23.0 h1:aR0efzuQa2HdEX3l2TZrU3EPZN7i74nT3QVHgfMFU7s=
-github.com/elgopher/pi v0.23.0/go.mod h1:lp2ECiJ2/m+gU+pW0ohe7v2qAu474eMqZMBkUIdOyiA=
+github.com/elgopher/pi v0.24.0 h1:lCXqRl7cudHoL3rK4NOd+KJOfnMXAYGrA1I1NPTrPCg=
+github.com/elgopher/pi v0.24.0/go.mod h1:lp2ECiJ2/m+gU+pW0ohe7v2qAu474eMqZMBkUIdOyiA=
 github.com/go-gl/glfw/v3.3/glfw v0.0.0-20221017161538-93cebf72946b h1:GgabKamyOYguHqHjSkDACcgoPIz3w0Dis/zJ1wyHHHU=
 github.com/go-gl/glfw/v3.3/glfw v0.0.0-20221017161538-93cebf72946b/go.mod h1:tQ2UAYgL5IevRw8kRxooKSPJfGvJ9fJQFa0TUsXzTg8=
 github.com/hajimehoshi/ebiten/v2 v2.5.6 h1:42Z8RUSE1e/CXl85mlbQs0OSM04st0Hhhc4DbAPpiz8=
