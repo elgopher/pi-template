@@ -3,10 +3,11 @@
 package main
 
 import (
-	"github.com/elgopher/pi/devtools"
-	"github.com/elgopher/pi/ebitengine"
+	"github.com/elgopher/pi/piebiten"
+	"github.com/elgopher/pi/piscope"
 )
 
 func run() {
-	devtools.MustRun(ebitengine.Run)
+	piscope.Start()
+	piebiten.Run()
 }
