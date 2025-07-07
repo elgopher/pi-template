@@ -50,9 +50,3 @@ go build -tags release .
 [aseprite]: https://www.aseprite.org/
 [libresprite]: https://libresprite.github.io/
 [picotron-faq]: https://www.lexaloffle.com/picotron.php?page=faq
-
----
-
-Skopiuj od samego początku do końca – **to nie ma żadnych bloków kodowych** ani znaczników backtickowych, które mogłyby przeszkodzić w kopiowaniu.
-
-Jakby nadal coś nie działało – powiedz, dam Ci go jeszcze prościej (np. całkiem surowy tekst bez formatowania nagłówków).
