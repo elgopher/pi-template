@@ -1,43 +1,52 @@
-# Pi game template 
+# Pi Game Template
 
-This is a template for writing new games powered by [Pi](https://github.com/elgopher/pi).
+This is a template for creating new games powered by [Pi](https://github.com/elgopher/pi).
 
 ## What's in the box? <img src="sprite-sheet.png" align="right" />
 
-* sprite-sheet file with 16 colors palette from [Pico-8](https://www.lexaloffle.com/pico-8.php).
-* the sprite-sheet file has one sprite with number 0
-* project is a Go module importing all the necessary dependencies
-* main.go file contains code running the game
-* game code is inside game package
-* two variants of code: for development (with devtools) and release (no devtools)
+* A sprite sheet with a 32-color palette from [Picotron][picotron-faq].
+* The sprite sheet includes one 8×8 sprite.
+* A Go module importing all necessary dependencies.
+* A `main.go` file containing code to run the game.
+* Two variants of code: development (with dev tools) and release (without dev tools).
 
-## How to use it?
+## How to use it
 
-* [Go 1.20+](https://go.dev/dl/) is required
-* Use any Go editor such as [Visual Studio Code](https://code.visualstudio.com/) or [GoLand](https://www.jetbrains.com/go/)
-* If not on Windows, please install additional dependencies for [Linux](https://github.com/elgopher/pi/blob/master/docs/install-linux.md) or [macOS](https://github.com/elgopher/pi/blob/master/docs/install-macos.md)
-* Run the game with ```go run .``` (or run directly from your editor)
+* [Go 1.24+](https://go.dev/dl/) is required.
+* Use any Go editor, such as [Visual Studio Code](https://code.visualstudio.com/) 
+  or [GoLand](https://www.jetbrains.com/go/).
+* On Linux or macOS, install additional dependencies:
+  * [Linux instructions](https://github.com/elgopher/pi/blob/master/docs/install-linux.md)
+  * [macOS instructions](https://github.com/elgopher/pi/blob/master/docs/install-macos.md)
+* Run the game with:
 
-## Howtos
+  go run .
 
-### How to rename the module?
+  > Do not run `main.go` directly, because Go will not compile the other `main_*` files.
 
-* this template has a module named `github.com/elgopher/pi-template`
-* edit the go.mod and replace the module name with your own, e.g. `module github.com/you/name`
-* do the same with import in main.go
+## How-to guides
 
-### How to edit PNG files?
+### How to rename the module
 
-* Use a pixel-art editor which supports indexed color mode, such as [Aseprite](https://www.aseprite.org/) or [LibreSprite](https://libresprite.github.io/).
-* Palette for the game is stored inside sprite-sheet.png. 
+* The template module is named `github.com/elgopher/pi-template`.
+* Edit `go.mod` and replace the module name with your own, e.g. `module github.com/you/name`.
+* Update the import path in `main.go` accordingly.
 
-### How to create release build (with no devtools)?
+### How to edit PNG files
 
-```sh
+* Use a pixel art editor that supports indexed color mode, such as [Aseprite][aseprite] or [LibreSprite][libresprite].
+* The palette for the game is stored inside `sprite-sheet.png`.
+
+### How to create a release build (without dev tools)
+
+```
 go build -tags release .
 ```
 
-### Attributions
+## Attributions
 
-* custom-font.png contains original [Pico-8 font](https://www.lexaloffle.com/pico-8.php?page=faq) created by Zep - [CC-0 license](https://creativecommons.org/publicdomain/zero/1.0/)
-* palette used in sprite-sheet.png is the original [Pico-8 palette](https://www.lexaloffle.com/pico-8.php?page=faq) created by Zep - [CC-0 license](https://creativecommons.org/publicdomain/zero/1.0/)
+* The palette used in `sprite-sheet.png` is the [original Picotron palette][picotron-faq] created by Zep.
+
+[aseprite]: https://www.aseprite.org/
+[libresprite]: https://libresprite.github.io/
+[picotron-faq]: https://www.lexaloffle.com/picotron.php?page=faq
