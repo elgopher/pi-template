@@ -1,20 +1,32 @@
 package main
 
 import (
-	"embed"
-
+	_ "embed"
 	"github.com/elgopher/pi"
-
-	"github.com/elgopher/pi-template/game"
 )
 
-//go:embed sprite-sheet.png custom-font.png
-var resources embed.FS
+//go:embed sprite-sheet.png
+var spriteSheetPNG []byte
 
 func main() {
-	pi.Load(resources)
-	pi.Update = game.Update
-	pi.Draw = game.Draw
+	pi.SetScreenSize(128, 128)
+	pi.Palette = pi.DecodePalette(spriteSheetPNG)
+	spriteSheet := pi.DecodeCanvas(spriteSheetPNG)
+	piSprite := pi.SpriteFrom(spriteSheet, 0, 0, 8, 8)
+
+	pi.Update = func() {
+		// Called every frame.
+		//
+		// This function should handle user input, performs calculations, and updates
+		// the game state. Typically, it does not draw anything on the screen.
+	}
+	pi.Draw = func() {
+		// Called (almost) every frame.
+		//
+		// Write here the code drawing on the screen.
+		pi.Cls()
+		pi.Spr(piSprite, 0, 0)
+	}
 
 	run()
 }
